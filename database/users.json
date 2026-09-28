@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "name": "Radha",
+        "role": "admin",
+        "phone": "9878987987",
+        "user_id": "1122",
+        "password": "1122radha!"
+    },
+    {
+        "name": "meera",
+        "role": "admin",
+        "phone": "9999999978",
+        "user_id": "9876",
+        "password": "9876poiu!!"
+    },
+    {
+        "name": "neha",
+        "role": "staff",
+        "phone": "9809990890",
+        "user_id": "0000",
+        "password": "00000000o!"
+    },
+    {
+        "name": "alia",
+        "role": "staff",
+        "phone": "9898790090",
+        "user_id": "11221",
+        "password": "asweqd34!q"
+    },
+    {
+        "name": "nandania",
+        "role": "staff",
+        "phone": "9899998978",
+        "user_id": "1111",
+        "password": "12345678a!"
+    }
+]

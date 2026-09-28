@@ -1,3 +1,5 @@
+from dashboard.table_dashboard import table_management_menu
+from dashboard.inventory_dashboard import inventory_management_menu
 from dashboard.food_menu_dashboard import menu_management
 def show_admin_dashboard(user_name):
     """Admin dashboard---Menu Screen"""
@@ -27,6 +29,7 @@ def show_admin_dashboard(user_name):
             menu_management()
         elif choice == "2":
             print("\nTable Management]")
+            table_management_menu()
         elif choice == "3":
             print("\nStaff Management]")
         elif choice == "4":
@@ -37,6 +40,7 @@ def show_admin_dashboard(user_name):
             print("\nDiscounts & Offers]")
         elif choice == "7":
             print("\nInventory Management]")
+            inventory_management_menu()
         elif choice == "8":
             print("\nAdvance Reservations]" )
         elif choice == "9":

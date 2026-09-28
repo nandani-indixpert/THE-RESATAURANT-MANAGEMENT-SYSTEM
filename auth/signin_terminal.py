@@ -31,9 +31,11 @@ def show_signin_screen():
 
     if success == True:
         print("Login Successful!")
-        if role == "Admin":
+        if role.lower() == "admin":
             show_admin_dashboard(name)
-        else:
+        elif role.lower() == "staff":
             show_staff_dashboard(name)
+        else:
+            print("Invalid role assigned!")
     else:
         print("ERROR:", msg)
