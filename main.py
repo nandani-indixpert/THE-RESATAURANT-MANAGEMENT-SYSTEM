@@ -1,4 +1,3 @@
-from auth.main_menu import show_main_menu
+from auth.main_menu import main_menu
 
-if __name__ == "__main__":
-    show_main_menu()
+main_menu()

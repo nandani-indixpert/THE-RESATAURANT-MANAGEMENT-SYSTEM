@@ -1,0 +1,100 @@
+[
+    {
+        "id": "a1b2c3d4e5",
+        "item_id": "I1",
+        "name": "Margherita Pizza",
+        "category": "Pizza",
+        "price": "299"
+    },
+    {
+        "id": "f6g7h8i9j0",
+        "item_id": "I2",
+        "name": "Farmhouse Pizza",
+        "category": "Pizza",
+        "price": "399"
+    },
+    {
+        "id": "k1l2m3n4o5",
+        "item_id": "I3",
+        "name": "Veg Burger",
+        "category": "Burger",
+        "price": "149"
+    },
+    {
+        "id": "p6q7r8s9t0",
+        "item_id": "I4",
+        "name": "French Fries",
+        "category": "Starters",
+        "price": "99"
+    },
+    {
+        "id": "u1v2w3x4y5",
+        "item_id": "I5",
+        "name": "Paneer Tikka",
+        "category": "Starters",
+        "price": "249"
+    },
+    {
+        "id": "z6a7b8c9d0",
+        "item_id": "I6",
+        "name": "Veg Biryani",
+        "category": "Main Course",
+        "price": "229"
+    },
+    {
+        "id": "e1f2g3h4i5",
+        "item_id": "I7",
+        "name": "Paneer Butter Masala",
+        "category": "Main Course",
+        "price": "279"
+    },
+    {
+        "id": "j6k7l8m9n0",
+        "item_id": "I8",
+        "name": "Dal Tadka",
+        "category": "Main Course",
+        "price": "189"
+    },
+    {
+        "id": "o1p2q3r4s5",
+        "item_id": "I9",
+        "name": "Butter Naan",
+        "category": "Breads",
+        "price": "49"
+    },
+    {
+        "id": "t6u7v8w9x0",
+        "item_id": "I10",
+        "name": "Masala Dosa",
+        "category": "South Indian",
+        "price": "159"
+    },
+    {
+        "id": "y1z2a3b4c5",
+        "item_id": "I11",
+        "name": "Cold Coffee",
+        "category": "Beverages",
+        "price": "129"
+    },
+    {
+        "id": "d6e7f8g9h0",
+        "item_id": "I12",
+        "name": "Fresh Lime Soda",
+        "category": "Beverages",
+        "price": "89"
+    },
+    {
+        "id": "i1j2k3l4m5",
+        "item_id": "I13",
+        "name": "Chocolate Brownie",
+        "category": "Dessert",
+        "price": "149"
+    },
+    {
+        "id": "n6o7p8q9r0",
+        "item_id": "I14",
+        "name": "Gulab Jamun",
+        "category": "Dessert",
+        "price": "99"
+    }
+]
