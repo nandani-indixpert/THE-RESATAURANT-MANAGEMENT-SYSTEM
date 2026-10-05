@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import pwinput
 
 from auth.admin import load_admin
@@ -24,7 +25,9 @@ def admin_signin():
         and password == admin["password"]
     ):
         print(f"\nWelcome, {admin['name']}!")
+        log_info(f"Admin logged in: {admin['name']}")
         return admin
 
     print("\nInvalid email/phone or password.")
+    log_warning("Invalid admin login attempt.")
     return None

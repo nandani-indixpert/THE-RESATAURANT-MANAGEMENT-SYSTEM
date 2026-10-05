@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import json
 import os
 
@@ -26,6 +27,7 @@ def delete_order():
 
     if len(order_list) == 0:
         print("\nNo orders found.")
+        log_warning(f"Invalid order delete attempt: {order_id}")
         return
 
     print("\n========== ORDERS ==========")
@@ -45,6 +47,7 @@ def delete_order():
             save_orders(order_list)
 
             print("\nOrder deleted successfully.")
+            log_info(f"Order deleted: {order_id}")
             return
 
     print("\nOrder ID not found.")

@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import json
 import os
 
@@ -26,6 +27,7 @@ def delete_table():
 
     if len(table_list) == 0:
         print("\nNo tables found.")
+        log_warning(f"Invalid table delete attempt: {table_id}")
         return
 
     print("\n========== TABLE LIST ==========")
@@ -43,6 +45,7 @@ def delete_table():
             save_tables(table_list)
 
             print("\nTable deleted successfully.")
+            log_info(f"Table deleted: {table_id}")
             return
 
     print("\nTable ID not found.")

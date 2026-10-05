@@ -1,3 +1,8 @@
+from dashboard.staff.view_table_status.view_table_status import view_table_status
+from dashboard.staff.create_order.create_order import staff_create_order
+from dashboard.staff.active_orders.active_orders import active_orders
+from dashboard.staff.billing_payment.billing_payment import billing_payment
+from dashboard.staff.reservations.reservations import reservations
 def staff_dashboard():
 
     while True:
@@ -13,19 +18,19 @@ def staff_dashboard():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            print("View Table Status")
+            view_table_status()
 
         elif choice == "2":
-            print("Create New Order")
+            staff_create_order()
 
         elif choice == "3":
-            print("View / Modify Active Orders")
+            active_orders()
 
         elif choice == "4":
-            print("Billing & Payment")
+            billing_payment()
 
         elif choice == "5":
-            print("Reservations")
+            reservations()
 
         elif choice == "6":
             print("Staff logged out.")

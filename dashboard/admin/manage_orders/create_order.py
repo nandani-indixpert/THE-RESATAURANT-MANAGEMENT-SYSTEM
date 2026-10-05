@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import json
 import os
 import uuid
@@ -38,6 +39,7 @@ def create_order():
 
     if len(food_list) == 0:
         print("\nNo food found. Please add food first.")
+        log_warning("Order creation attempted with empty food menu.")
         return
 
     print("\n========== FOOD MENU ==========")
@@ -105,6 +107,7 @@ def create_order():
 
     print("\n========== ORDER CREATED ==========")
     print(f"Order ID: {order['order_id']}")
+    log_info(f"Order created: {order['order_id']}")
 
     for item in items:
         print(

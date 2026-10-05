@@ -1,3 +1,4 @@
+from utils.logger import log_info
 import json
 import os
 
@@ -30,3 +31,5 @@ def view_table():
         print(f"Seats      : {table['seats']}")
         print(f"Status     : {table['status']}")
         print("-" * 40)
+
+    log_info("Table list viewed.")

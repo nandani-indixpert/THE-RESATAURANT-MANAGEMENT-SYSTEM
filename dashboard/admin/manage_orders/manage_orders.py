@@ -1,5 +1,5 @@
 from dashboard.admin.manage_orders.create_order import create_order
-from dashboard.admin.manage_orders.view_order import view_order
+from dashboard.admin.manage_orders.view_order import view_orders
 from dashboard.admin.manage_orders.update_order import update_order
 from dashboard.admin.manage_orders.delete_order import delete_order
 def manage_orders():
@@ -19,7 +19,7 @@ def manage_orders():
             create_order()
 
         elif choice == "2":
-            view_order()
+            view_orders()
 
         elif choice == "3":
             update_order()

@@ -1,3 +1,4 @@
+from utils.logger import log_info
 import json
 import os
 
@@ -39,3 +40,5 @@ def view_orders():
 
         print(f"Total    : ₹{order['total']}")
         print("-" * 40)
+
+    log_info("Order list viewed")

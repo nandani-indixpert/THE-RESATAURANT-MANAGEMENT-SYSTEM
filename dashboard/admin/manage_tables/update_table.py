@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import json
 import os
 
@@ -26,6 +27,7 @@ def update_table():
 
     if len(table_list) == 0:
         print("\nNo tables found.")
+        log_warning(f"Invalid table update attempt: {table_id}")
         return
 
     print("\n========== TABLE LIST ==========")
@@ -45,6 +47,7 @@ def update_table():
             save_tables(table_list)
 
             print("\nTable updated successfully.")
+            log_info(f"Table updated: {table_id}")
             return
 
     print("\nTable ID not found.")

@@ -1,3 +1,4 @@
+from utils.logger import log_info,log_warning
 import json
 import os
 
@@ -41,6 +42,8 @@ def delete_food():
             save_food(food_list)
 
             print("\nFood deleted successfully.")
+            log_info(f"Food deleted : {item_id}")
             return
 
     print("\nItem ID not found.")
+    log_warning(f"Invalid food delete attempt : {item_id}")

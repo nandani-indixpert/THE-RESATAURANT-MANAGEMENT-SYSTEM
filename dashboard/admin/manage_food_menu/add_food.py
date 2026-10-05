@@ -1,3 +1,4 @@
+from utils.logger import log_info,log_warning
 import json
 import os
 import uuid
@@ -28,6 +29,11 @@ def add_food():
     item_id = f"I{len(food_list) + 1:03d}"
 
     name = input("Enter food name: ").strip()
+    if name == "":
+        print("\nFood name cannot be empty.")
+        log_warning("Attempt to add food with empty name.")
+        return
+    
     category = input("Enter category: ").strip()
     price = input("Enter food price: ").strip()
 
@@ -44,3 +50,5 @@ def add_food():
 
     print("\nFood added successfully.")
     print(f"Item ID: {item_id}")
+    log_info(f"Food added : {item_id} - {name}")
+

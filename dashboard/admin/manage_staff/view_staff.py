@@ -1,3 +1,4 @@
+from utils.logger import log_info
 from auth.staff import load_staff
 
 
@@ -17,3 +18,5 @@ def view_staff():
         print(f"Email    : {staff['email']}")
         print(f"Phone    : {staff['phone']}")
         print("-" * 40)
+
+    log_info("Staff list viewed.")

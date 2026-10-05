@@ -1,3 +1,4 @@
+from utils.logger import log_info,log_warning
 import json
 import os
 
@@ -29,3 +30,5 @@ def view_food():
         print(f"Category : {food['category']}")
         print(f"Price    : ₹{food['price']}")
         print("-" * 40)
+
+    log_info("Food menu viewed.")

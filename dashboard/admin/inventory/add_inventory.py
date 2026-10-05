@@ -1,3 +1,4 @@
+from utils.logger import log_info
 import json
 import os
 import uuid
@@ -44,4 +45,5 @@ def add_inventory():
     save_inventory(inventory_list)
 
     print("\nInventory added successfully.")
+    log_info(f"Inventory added: {inventory_id}")
     print(f"Inventory ID: {inventory_id}")

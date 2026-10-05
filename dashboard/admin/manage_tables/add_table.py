@@ -1,3 +1,4 @@
+from utils.logger import log_info,log_warning
 import json
 import os
 import uuid
@@ -42,4 +43,5 @@ def add_table():
     save_tables(table_list)
 
     print("\nTable added successfully.")
+    log_info(f"Table added : {table_id}")
     print(f"Table ID: {table_id}")

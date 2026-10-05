@@ -1,3 +1,4 @@
+from utils.logger import log_info
 import json
 import os
 
@@ -30,3 +31,5 @@ def view_inventory():
         print(f"Unit         : {item['unit']}")
         print(f"Status       : {item['status']}")
         print("-" * 40)
+
+    log_info("Inventory list viewed.")

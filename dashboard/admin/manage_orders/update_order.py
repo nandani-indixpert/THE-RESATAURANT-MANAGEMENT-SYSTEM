@@ -1,3 +1,4 @@
+from utils.logger import log_info,log_warning
 import json
 import os
 
@@ -26,6 +27,7 @@ def update_order():
 
     if len(order_list) == 0:
         print("\nNo orders found.")
+        log_warning(f"Invalid order update attempt: {order_id}")
         return
 
     print("\n========== ORDERS ==========")
@@ -87,6 +89,7 @@ def update_order():
             save_orders(order_list)
 
             print("\nOrder updated successfully.")
+            log_info(f"Order updated: {order_id}")
             return
 
     print("\nOrder ID not found.")

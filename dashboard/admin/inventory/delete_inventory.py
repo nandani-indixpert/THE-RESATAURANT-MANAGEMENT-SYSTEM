@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import json
 import os
 
@@ -24,6 +25,7 @@ def delete_inventory():
 
     if len(inventory_list) == 0:
         print("\nNo inventory found.")
+        log_warning(f"Invalid inventory delete attempt: {inventory_id}")
         return
 
     print("\n========== INVENTORY LIST ==========")
@@ -47,6 +49,7 @@ def delete_inventory():
             save_inventory(inventory_list)
 
             print("\nInventory deleted successfully.")
+            log_info(f"Inventory deleted: {inventory_id}")
             return
 
     print("\nInventory ID not found.")

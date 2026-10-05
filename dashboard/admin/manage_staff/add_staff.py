@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import uuid
 import pwinput
 
@@ -16,6 +17,7 @@ def add_staff():
 
     if len(staff_list) >= 40:
         print("\nMaximum 40 staff members are allowed.")
+        log_warning("Maximum staff limit reached.")
         return
 
     print("\n========== ADD STAFF ==========")
@@ -25,6 +27,7 @@ def add_staff():
     valid, message = validate_name(name)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid staff name.")
         return
 
     email = input("Enter email: ")
@@ -32,6 +35,7 @@ def add_staff():
     valid, message = validate_email(email)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid staff email.")
         return
 
     phone = input("Enter phone: ")
@@ -39,6 +43,7 @@ def add_staff():
     valid, message = validate_phone(phone)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid staff phone.")
         return
 
     password = pwinput.pwinput("Enter password: ")
@@ -46,6 +51,7 @@ def add_staff():
     valid, message = validate_password(password)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid staff password.")
         return
 
     staff_id = f"S{len(staff_list) + 1:03d}"
@@ -64,3 +70,4 @@ def add_staff():
 
     print(f"\nStaff added successfully.")
     print(f"Staff ID: {staff_id}")
+    log_info(f"Staff added: {staff_id}")

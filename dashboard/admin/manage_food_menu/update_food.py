@@ -1,3 +1,4 @@
+from utils.logger import log_info,log_warning
 import json
 import os
 
@@ -44,6 +45,8 @@ def update_food():
             save_food(food_list)
 
             print("\nFood updated successfully.")
+            log_info(f"Food updated : {item_id}")
             return
 
     print("\nItem ID not found.")
+    log_warning(f"Invalid food updated attempt : {item_id}")

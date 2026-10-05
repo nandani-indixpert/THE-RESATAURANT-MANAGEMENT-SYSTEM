@@ -1,3 +1,4 @@
+from utils.logger import log_info, log_warning
 import uuid
 import pwinput
 
@@ -25,6 +26,7 @@ def admin_signup():
     valid, message = validate_name(name)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid admin name.")
         return
 
     email = input("Enter email: ")
@@ -32,6 +34,7 @@ def admin_signup():
     valid, message = validate_email(email)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid admin email.")
         return
 
     phone = input("Enter phone: ")
@@ -39,6 +42,7 @@ def admin_signup():
     valid, message = validate_phone(phone)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid admin phone")
         return
 
     password = pwinput.pwinput("Enter password: ")
@@ -46,6 +50,7 @@ def admin_signup():
     valid, message = validate_password(password)
     if not valid:
         print("ERROR:", message)
+        log_warning("Invalid admin passsword")
         return
 
     admin = {
@@ -60,3 +65,4 @@ def admin_signup():
     save_admin(admins)
 
     print("\nAdmin account created successfully.")
+    log_info(f"Admin account created: {name}")
