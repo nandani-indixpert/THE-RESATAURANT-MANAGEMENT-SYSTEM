@@ -40,3 +40,40 @@
 2026-10-05 14:55:27,949 - INFO - Order updated: 75fbcf6d-5
 2026-10-05 14:55:27,949 - INFO - Staff modified an order.
 2026-10-05 15:06:42,747 - WARNING - Invalid billing attempt for Order ID: python -u "d:\The restaurant management system\THE-RESATAURANT-MANAGEMENT-SYSTEM\dashboard\admin\admin_dashboard.py"
+2026-10-06 14:01:36,508 - INFO - Staff logged in: ritu
+2026-10-06 14:01:46,029 - INFO - Order created: ae499cd8-5
+2026-10-06 14:01:47,898 - INFO - Staff viewed table status.
+2026-10-06 14:01:51,596 - INFO - Order list viewed
+2026-10-06 14:01:51,596 - INFO - Staff viewed active orders.
+2026-10-06 14:02:12,660 - INFO - Staff modified an order.
+2026-10-06 14:02:39,695 - INFO - Order created: f77e255b-1
+2026-10-06 14:02:51,170 - INFO - Admin logged in: nikki
+2026-10-06 14:03:11,121 - INFO - Food menu viewed.
+2026-10-06 14:03:29,467 - INFO - Food added : I016 - 1
+2026-10-06 14:03:43,946 - INFO - Food deleted : I015
+2026-10-06 14:03:48,247 - INFO - Food menu viewed.
+2026-10-06 14:15:23,549 - INFO - Staff logged in: ritu
+2026-10-06 14:15:28,772 - INFO - Staff viewed table status.
+2026-10-06 14:15:58,088 - INFO - Order created: c83bb033-7
+2026-10-06 14:16:04,567 - INFO - Order list viewed
+2026-10-06 14:16:04,567 - INFO - Staff viewed active orders.
+2026-10-06 14:16:42,589 - INFO - Order updated: c83bb033-7
+2026-10-06 14:16:42,589 - INFO - Staff modified an order.
+2026-10-06 14:17:07,221 - INFO - Order updated: c83bb033-7
+2026-10-06 14:17:07,221 - INFO - Staff modified an order.
+2026-10-06 14:17:37,840 - INFO - Payment completed for Order ID: c83bb033-7
+2026-10-06 14:18:26,076 - INFO - Admin logged in: nikki
+2026-10-06 14:18:46,633 - INFO - Order created: 3bbe4483-a
+2026-10-06 14:18:47,679 - INFO - Order list viewed
+2026-10-06 14:21:27,800 - WARNING - Invalid admin name.
+2026-10-06 14:22:13,526 - INFO - Admin account created: nandani
+2026-10-06 14:22:26,521 - WARNING - Invalid admin login attempt.
+2026-10-06 14:22:47,638 - INFO - Admin logged in: nandani
+2026-10-06 14:22:55,608 - INFO - Inventory list viewed.
+2026-10-06 14:29:09,129 - INFO - Staff logged in: ritu
+2026-10-06 14:29:59,153 - WARNING - Invalid admin login attempt.
+2026-10-06 14:30:15,084 - INFO - Admin logged in: nandani
+2026-10-06 14:36:48,735 - INFO - Order created: a12291d0-1
+2026-10-06 14:36:55,360 - INFO - Food menu viewed.
+2026-10-06 14:37:24,097 - INFO - Staff logged in: ritu
+2026-10-06 14:38:32,136 - INFO - Staff logged in: ritu
