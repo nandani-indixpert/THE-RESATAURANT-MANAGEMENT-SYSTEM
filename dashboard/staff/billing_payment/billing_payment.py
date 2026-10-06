@@ -1,7 +1,8 @@
 from utils.logger import log_info, log_warning
+from dashboard.staff.billing_payment.feedback import take_feedback
+from datetime import datetime
 import json
 import os
-
 
 ORDER_FILE = "database/orders.json"
 
@@ -21,6 +22,53 @@ def save_orders(order_list):
         json.dump(order_list, file, indent=4)
 
 
+def show_bill(order):
+
+    customer_name = order.get("customer_name", "")
+    order_id = order["order_id"]
+
+    total = float(order["total"])
+    discount = float(order.get("discount", 0))
+    gst = float(order.get("gst", 0))
+    final_amount = float(order.get("final_amount", total))
+
+    date = order.get("date", "")
+    time = order.get("time", "")
+
+    print("\n")
+    print("╔══════════════════════════════════════════════════╗")
+    print("║                    BILL                          ║")
+    print("╠══════════════════════════════════════════════════╣")
+    print(f"║ Customer Name : {customer_name:<31}║")
+    print(f"║ Order ID      : {order_id:<31}║")
+    print(f"║ Date          : {date:<31}║")
+    print(f"║ Time          : {time:<31}║")
+    print("╠══════════════════════════════════════════════════╣")
+    print("║ ITEM NAME                 QTY           PRICE    ║")
+    print("╠══════════════════════════════════════════════════╣")
+
+    for item in order["items"]:
+
+        food_name = item["food_name"]
+        quantity = item["quantity"]
+        item_total = item["total"]
+
+        print(
+            f"║ {food_name:<24} "
+            f"{quantity:<10} "
+            f"₹{item_total:<10} ║"
+        )
+
+    print("╠══════════════════════════════════════════════════╣")
+    print(f"║ Food Total     : ₹{total:<30}║")
+    print(f"║ Discount       : ₹{discount:<30}║")
+    print(f"║ Subtotal       : ₹{total - discount:<30}║")
+    print(f"║ GST (5%)       : ₹{gst:<30}║")
+    print("╠══════════════════════════════════════════════════╣")
+    print(f"║ Final Amount   : ₹{final_amount:<30}║")
+    print("╚══════════════════════════════════════════════════╝")
+
+
 def billing_payment():
 
     order_list = load_orders()
@@ -32,6 +80,7 @@ def billing_payment():
     print("\n========== ORDERS ==========")
 
     for order in order_list:
+
         print(
             f"Order ID: {order['order_id']} "
             f"| Total: ₹{order['total']} "
@@ -44,80 +93,176 @@ def billing_payment():
 
         if order["order_id"] == order_id:
 
-            total = float(order["total"])
+            # Check if payment is already completed
 
-            print("\n========== BILL ==========")
+            if order.get("payment_status") == "Paid":
 
-            for item in order["items"]:
+                show_bill(order)
+
                 print(
-                    f"{item['food_name']} x {item['quantity']} "
-                    f"= ₹{item['total']}"
+                    f"\nPayment Method : "
+                    f"{order.get('payment_method', '')}"
                 )
 
-            print("-" * 35)
-            print(f"Food Total     : ₹{total}")
+                print("Payment Status : Paid")
 
-            # Coupon
-            coupon = input(
-                "Enter coupon code (or press Enter to skip): "
-            ).strip().upper()
+                print(
+                    "\nThis order has already been paid."
+                )
 
-            discount = 0
+                log_info(
+                    f"Paid order viewed: {order_id}"
+                )
 
-            if coupon == "SAVE10":
+                return
+
+            # New payment
+
+            customer_name = input(
+                "\nEnter customer name (optional): "
+            ).strip()
+
+            total = float(order["total"])
+
+            current_date = datetime.now().strftime("%Y-%m-%d")
+            current_time = datetime.now().strftime("%I:%M %p")
+
+            # Bulk Purchase Discount
+
+            if total >= 3000:
+
+                discount = total * 15 / 100
+
+            elif total >= 2000:
+
                 discount = total * 10 / 100
 
-            elif coupon == "SAVE20":
-                discount = total * 20 / 100
+            elif total >= 1000:
 
-            elif coupon == "WELCOME5":
                 discount = total * 5 / 100
 
-            elif coupon == "":
-                discount = 0
-
             else:
-                print("Invalid coupon.")
-                coupon = "NOCOUPON"
+
+                discount = 0
 
             subtotal = total - discount
 
-            # 5% GST
             gst = subtotal * 5 / 100
 
             final_amount = subtotal + gst
 
-            print(f"Coupon Discount: ₹{discount}")
-            print(f"Subtotal       : ₹{subtotal}")
-            print(f"GST (5%)       : ₹{gst}")
-            print("-" * 35)
-            print(f"Final Amount   : ₹{final_amount}")
+            # Save billing details
 
-            # Payment
-            payment_method = input(
-                "\nEnter payment method (Cash/UPI/Card): "
-            ).strip().title()
-
-            order["coupon"] = coupon
+            order["customer_name"] = customer_name
             order["discount"] = discount
             order["gst"] = gst
             order["final_amount"] = final_amount
+            order["date"] = current_date
+            order["time"] = current_time
+
+            # Show Bill
+
+            print("\n")
+            print("╔══════════════════════════════════════════════════╗")
+            print("║                    BILL                          ║")
+            print("╠══════════════════════════════════════════════════╣")
+            print(f"║ Customer Name : {customer_name:<31}║")
+            print(f"║ Order ID      : {order['order_id']:<31}║")
+            print(f"║ Date          : {current_date:<31}║")
+            print(f"║ Time          : {current_time:<31}║")
+            print("╠══════════════════════════════════════════════════╣")
+            print("║ ITEM NAME                 QTY           PRICE    ║")
+            print("╠══════════════════════════════════════════════════╣")
+
+            for item in order["items"]:
+
+                food_name = item["food_name"]
+                quantity = item["quantity"]
+                item_total = item["total"]
+
+                print(
+                    f"║ {food_name:<24} "
+                    f"{quantity:<10} "
+                    f"₹{item_total:<10} ║"
+                )
+
+            print("╠══════════════════════════════════════════════════╣")
+            print(f"║ Food Total     : ₹{total:<30}║")
+            print(f"║ Discount       : ₹{discount:<30}║")
+            print(f"║ Subtotal       : ₹{subtotal:<30}║")
+            print(f"║ GST (5%)       : ₹{gst:<30}║")
+            print("╠══════════════════════════════════════════════════╣")
+            print(f"║ Final Amount   : ₹{final_amount:<30}║")
+            print("╚══════════════════════════════════════════════════╝")
+
+            # Payment Method
+
+            print("\nSelect Payment Method:")
+            print("1. Cash")
+            print("2. UPI")
+            print("3. Card")
+
+            while True:
+
+                payment_choice = input(
+                    "Enter your choice: "
+                ).strip()
+
+                if payment_choice == "1":
+
+                    payment_method = "Cash"
+                    break
+
+                elif payment_choice == "2":
+
+                    payment_method = "UPI"
+                    break
+
+                elif payment_choice == "3":
+
+                    payment_method = "Card"
+                    break
+
+                else:
+
+                    print(
+                        "\nInvalid choice. "
+                        "Please enter 1, 2 or 3."
+                    )
+
             order["payment_method"] = payment_method
             order["payment_status"] = "Paid"
 
             save_orders(order_list)
 
-            print("\n========== PAYMENT SUCCESSFUL ==========")
-            print(f"Order ID       : {order['order_id']}")
-            print(f"Food Total     : ₹{total}")
-            print(f"Discount       : ₹{discount}")
-            print(f"GST (5%)       : ₹{gst}")
-            print(f"Final Amount   : ₹{final_amount}")
-            print(f"Payment Method : {payment_method}")
-            print("Payment Status : Paid")
-            log_info(f"Payment completed for Order ID: {order_id}")
+            print("\n")
+            print("╔══════════════════════════════════════════════════╗")
+            print("║              PAYMENT SUCCESSFUL                 ║")
+            print("╠══════════════════════════════════════════════════╣")
+            print(f"║ Customer Name  : {customer_name:<30}║")
+            print(f"║ Order ID       : {order['order_id']:<30}║")
+            print(f"║ Date           : {current_date:<30}║")
+            print(f"║ Time           : {current_time:<30}║")
+            print(f"║ Food Total     : ₹{total:<29}║")
+            print(f"║ Discount       : ₹{discount:<29}║")
+            print(f"║ GST (5%)       : ₹{gst:<29}║")
+            print(f"║ Final Amount   : ₹{final_amount:<29}║")
+            print(f"║ Payment Method : {payment_method:<30}║")
+            print("║ Payment Status : Paid                             ║")
+            print("╚══════════════════════════════════════════════════╝")
+
+            log_info(
+                f"Payment completed for Order ID: {order_id}"
+            )
+
+            # Feedback
+
+            take_feedback(order_id, customer_name)
 
             return
 
     print("\nOrder ID not found.")
-    log_warning(f"Invalid billing attempt for Order ID: {order_id}")
+
+    log_warning(
+        f"Invalid billing attempt for Order ID: {order_id}"
+    )

@@ -27,7 +27,7 @@ def update_table():
 
     if len(table_list) == 0:
         print("\nNo tables found.")
-        log_warning(f"Invalid table update attempt: {table_id}")
+        
         return
 
     print("\n========== TABLE LIST ==========")
@@ -51,3 +51,4 @@ def update_table():
             return
 
     print("\nTable ID not found.")
+    log_warning(f"Invalid table update attempt: {table_id}")

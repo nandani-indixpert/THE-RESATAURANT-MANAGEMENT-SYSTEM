@@ -23,13 +23,19 @@ def view_table():
         print("\nNo tables found.")
         return
 
-    print("\n========== TABLE LIST ==========")
+    print("\n")
+    print("╔══════════╦══════════════╦══════════╦═══════════════╗")
+    print("║ TABLE ID ║ TABLE TYPE   ║ CAPACITY ║ STATUS        ║")
+    print("╠══════════╬══════════════╬══════════╬═══════════════╣")
 
     for table in table_list:
-        print(f"Table ID   : {table['table_id']}")
-        print(f"Type       : {table['table_type']}")
-        print(f"Seats      : {table['seats']}")
-        print(f"Status     : {table['status']}")
-        print("-" * 40)
+        print(
+            f"║ {table['table_id']:<8} "
+            f"║ {table['table_type']:<12} "
+            f"║ {table['seats']:<8} "
+            f"║ {table['status']:<13} ║"
+        )
+
+    print("╚══════════╩══════════════╩══════════╩═══════════════╝")
 
     log_info("Table list viewed.")

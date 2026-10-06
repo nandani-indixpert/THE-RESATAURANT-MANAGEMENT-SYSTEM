@@ -1,107 +1,702 @@
 [
     {
-        "id": "a1b2c3d4e5",
-        "item_id": "I1",
-        "name": "pasta with cheese",
-        "category": "veg",
-        "price": "200"
+        "id": "food001abc",
+        "item_id": "I001",
+        "name": "Paneer Butter Masala",
+        "category": "Indian Classics",
+        "price": "220"
     },
     {
-        "id": "f6g7h8i9j0",
-        "item_id": "I2",
-        "name": "roll",
-        "category": "nonveg",
-        "price": "200"
+        "id": "food002abc",
+        "item_id": "I002",
+        "name": "Dal Makhani",
+        "category": "Indian Classics",
+        "price": "180"
     },
     {
-        "id": "k1l2m3n4o5",
-        "item_id": "I3",
-        "name": "Veg Burger",
-        "category": "Burger",
-        "price": "149"
+        "id": "food003abc",
+        "item_id": "I003",
+        "name": "Shahi Paneer",
+        "category": "Indian Classics",
+        "price": "210"
     },
     {
-        "id": "p6q7r8s9t0",
-        "item_id": "I4",
-        "name": "nan roti",
-        "category": "food",
-        "price": "200"
+        "id": "food004abc",
+        "item_id": "I004",
+        "name": "Kadhai Paneer",
+        "category": "Indian Classics",
+        "price": "220"
     },
     {
-        "id": "u1v2w3x4y5",
-        "item_id": "I5",
-        "name": "Paneer Tikka",
-        "category": "Starters",
-        "price": "249"
+        "id": "food005abc",
+        "item_id": "I005",
+        "name": "Malai Kofta",
+        "category": "Indian Classics",
+        "price": "230"
     },
     {
-        "id": "z6a7b8c9d0",
-        "item_id": "I6",
-        "name": "Veg Biryani",
-        "category": "Main Course",
-        "price": "229"
+        "id": "food006abc",
+        "item_id": "I006",
+        "name": "Chole Bhature",
+        "category": "Indian Classics",
+        "price": "160"
     },
     {
-        "id": "j6k7l8m9n0",
-        "item_id": "I8",
-        "name": "dal makkhani",
-        "category": "vej",
-        "price": "200"
+        "id": "food007abc",
+        "item_id": "I007",
+        "name": "Rajma Masala",
+        "category": "Indian Classics",
+        "price": "170"
     },
     {
-        "id": "o1p2q3r4s5",
-        "item_id": "I9",
+        "id": "food008abc",
+        "item_id": "I008",
+        "name": "Aloo Paratha",
+        "category": "Indian Classics",
+        "price": "100"
+    },
+    {
+        "id": "food009abc",
+        "item_id": "I009",
         "name": "Butter Naan",
-        "category": "Breads",
-        "price": "49"
+        "category": "Indian Classics",
+        "price": "60"
     },
     {
-        "id": "t6u7v8w9x0",
-        "item_id": "I10",
-        "name": "Masala Dosa",
-        "category": "South Indian",
-        "price": "159"
+        "id": "food010abc",
+        "item_id": "I010",
+        "name": "Garlic Naan",
+        "category": "Indian Classics",
+        "price": "80"
     },
     {
-        "id": "y1z2a3b4c5",
-        "item_id": "I11",
-        "name": "Cold Coffee",
-        "category": "Beverages",
-        "price": "129"
+        "id": "food011abc",
+        "item_id": "I011",
+        "name": "Paneer Tikka",
+        "category": "Tandoor & Kebabs",
+        "price": "240"
     },
     {
-        "id": "d6e7f8g9h0",
-        "item_id": "I12",
-        "name": "Fresh Lime Soda",
-        "category": "Beverages",
-        "price": "89"
+        "id": "food012abc",
+        "item_id": "I012",
+        "name": "Tandoori Paneer",
+        "category": "Tandoor & Kebabs",
+        "price": "250"
     },
     {
-        "id": "i1j2k3l4m5",
-        "item_id": "I13",
-        "name": "Chocolate Brownie",
-        "category": "Dessert",
-        "price": "149"
+        "id": "food013abc",
+        "item_id": "I013",
+        "name": "Tandoori Chicken",
+        "category": "Tandoor & Kebabs",
+        "price": "280"
     },
     {
-        "id": "n6o7p8q9r0",
-        "item_id": "I14",
-        "name": "Gulab Jamun",
-        "category": "Dessert",
-        "price": "99"
+        "id": "food014abc",
+        "item_id": "I014",
+        "name": "Chicken Tikka",
+        "category": "Tandoor & Kebabs",
+        "price": "260"
     },
     {
-        "id": "54bbf5b7-7",
+        "id": "food015abc",
         "item_id": "I015",
-        "name": "icecream",
-        "category": "desert",
+        "name": "Chicken Seekh Kebab",
+        "category": "Tandoor & Kebabs",
+        "price": "270"
+    },
+    {
+        "id": "food016abc",
+        "item_id": "I016",
+        "name": "Mutton Seekh Kebab",
+        "category": "Tandoor & Kebabs",
+        "price": "320"
+    },
+    {
+        "id": "food017abc",
+        "item_id": "I017",
+        "name": "Hara Bhara Kebab",
+        "category": "Tandoor & Kebabs",
+        "price": "190"
+    },
+    {
+        "id": "food018abc",
+        "item_id": "I018",
+        "name": "Tandoori Mushroom",
+        "category": "Tandoor & Kebabs",
+        "price": "220"
+    },
+    {
+        "id": "food019abc",
+        "item_id": "I019",
+        "name": "Reshmi Kebab",
+        "category": "Tandoor & Kebabs",
+        "price": "290"
+    },
+    {
+        "id": "food020abc",
+        "item_id": "I020",
+        "name": "Tandoori Platter",
+        "category": "Tandoor & Kebabs",
+        "price": "450"
+    },
+    {
+        "id": "food021abc",
+        "item_id": "I021",
+        "name": "Veg Hakka Noodles",
+        "category": "Chinese & Asian",
+        "price": "180"
+    },
+    {
+        "id": "food022abc",
+        "item_id": "I022",
+        "name": "Chicken Hakka Noodles",
+        "category": "Chinese & Asian",
+        "price": "220"
+    },
+    {
+        "id": "food023abc",
+        "item_id": "I023",
+        "name": "Veg Fried Rice",
+        "category": "Chinese & Asian",
+        "price": "170"
+    },
+    {
+        "id": "food024abc",
+        "item_id": "I024",
+        "name": "Chicken Fried Rice",
+        "category": "Chinese & Asian",
+        "price": "210"
+    },
+    {
+        "id": "food025abc",
+        "item_id": "I025",
+        "name": "Veg Manchurian",
+        "category": "Chinese & Asian",
+        "price": "190"
+    },
+    {
+        "id": "food026abc",
+        "item_id": "I026",
+        "name": "Chicken Manchurian",
+        "category": "Chinese & Asian",
+        "price": "230"
+    },
+    {
+        "id": "food027abc",
+        "item_id": "I027",
+        "name": "Chilli Paneer",
+        "category": "Chinese & Asian",
+        "price": "210"
+    },
+    {
+        "id": "food028abc",
+        "item_id": "I028",
+        "name": "Chilli Chicken",
+        "category": "Chinese & Asian",
+        "price": "240"
+    },
+    {
+        "id": "food029abc",
+        "item_id": "I029",
+        "name": "Veg Momos",
+        "category": "Chinese & Asian",
+        "price": "140"
+    },
+    {
+        "id": "food030abc",
+        "item_id": "I030",
+        "name": "Chicken Momos",
+        "category": "Chinese & Asian",
+        "price": "180"
+    },
+    {
+        "id": "food031abc",
+        "item_id": "I031",
+        "name": "Veg Biryani",
+        "category": "Biryani & Rice",
+        "price": "200"
+    },
+    {
+        "id": "food032abc",
+        "item_id": "I032",
+        "name": "Paneer Biryani",
+        "category": "Biryani & Rice",
+        "price": "230"
+    },
+    {
+        "id": "food033abc",
+        "item_id": "I033",
+        "name": "Chicken Biryani",
+        "category": "Biryani & Rice",
+        "price": "280"
+    },
+    {
+        "id": "food034abc",
+        "item_id": "I034",
+        "name": "Mutton Biryani",
+        "category": "Biryani & Rice",
+        "price": "340"
+    },
+    {
+        "id": "food035abc",
+        "item_id": "I035",
+        "name": "Egg Biryani",
+        "category": "Biryani & Rice",
+        "price": "220"
+    },
+    {
+        "id": "food036abc",
+        "item_id": "I036",
+        "name": "Jeera Rice",
+        "category": "Biryani & Rice",
+        "price": "130"
+    },
+    {
+        "id": "food037abc",
+        "item_id": "I037",
+        "name": "Veg Pulao",
+        "category": "Biryani & Rice",
+        "price": "160"
+    },
+    {
+        "id": "food038abc",
+        "item_id": "I038",
+        "name": "Mushroom Rice",
+        "category": "Biryani & Rice",
+        "price": "190"
+    },
+    {
+        "id": "food039abc",
+        "item_id": "I039",
+        "name": "Chicken Pulao",
+        "category": "Biryani & Rice",
+        "price": "250"
+    },
+    {
+        "id": "food040abc",
+        "item_id": "I040",
+        "name": "Steamed Rice",
+        "category": "Biryani & Rice",
+        "price": "100"
+    },
+    {
+        "id": "food041abc",
+        "item_id": "I041",
+        "name": "Palak Paneer",
+        "category": "Vegetarian Delights",
+        "price": "220"
+    },
+    {
+        "id": "food042abc",
+        "item_id": "I042",
+        "name": "Paneer Tikka Masala",
+        "category": "Vegetarian Delights",
+        "price": "250"
+    },
+    {
+        "id": "food043abc",
+        "item_id": "I043",
+        "name": "Mushroom Masala",
+        "category": "Vegetarian Delights",
+        "price": "210"
+    },
+    {
+        "id": "food044abc",
+        "item_id": "I044",
+        "name": "Mix Veg Curry",
+        "category": "Vegetarian Delights",
+        "price": "180"
+    },
+    {
+        "id": "food045abc",
+        "item_id": "I045",
+        "name": "Veg Kofta Curry",
+        "category": "Vegetarian Delights",
+        "price": "220"
+    },
+    {
+        "id": "food046abc",
+        "item_id": "I046",
+        "name": "Kaju Curry",
+        "category": "Vegetarian Delights",
+        "price": "260"
+    },
+    {
+        "id": "food047abc",
+        "item_id": "I047",
+        "name": "Veg Korma",
+        "category": "Vegetarian Delights",
+        "price": "230"
+    },
+    {
+        "id": "food048abc",
+        "item_id": "I048",
+        "name": "Stuffed Capsicum",
+        "category": "Vegetarian Delights",
+        "price": "190"
+    },
+    {
+        "id": "food049abc",
+        "item_id": "I049",
+        "name": "Matar Paneer",
+        "category": "Vegetarian Delights",
+        "price": "210"
+    },
+    {
+        "id": "food050abc",
+        "item_id": "I050",
+        "name": "Corn Palak",
+        "category": "Vegetarian Delights",
+        "price": "190"
+    },
+    {
+        "id": "food051abc",
+        "item_id": "I051",
+        "name": "Butter Chicken",
+        "category": "Non-Vegetarian Delights",
+        "price": "290"
+    },
+    {
+        "id": "food052abc",
+        "item_id": "I052",
+        "name": "Chicken Curry",
+        "category": "Non-Vegetarian Delights",
+        "price": "250"
+    },
+    {
+        "id": "food053abc",
+        "item_id": "I053",
+        "name": "Kadhai Chicken",
+        "category": "Non-Vegetarian Delights",
+        "price": "280"
+    },
+    {
+        "id": "food054abc",
+        "item_id": "I054",
+        "name": "Chicken Handi",
+        "category": "Non-Vegetarian Delights",
+        "price": "300"
+    },
+    {
+        "id": "food055abc",
+        "item_id": "I055",
+        "name": "Chicken Do Pyaza",
+        "category": "Non-Vegetarian Delights",
+        "price": "270"
+    },
+    {
+        "id": "food056abc",
+        "item_id": "I056",
+        "name": "Mutton Rogan Josh",
+        "category": "Non-Vegetarian Delights",
+        "price": "350"
+    },
+    {
+        "id": "food057abc",
+        "item_id": "I057",
+        "name": "Mutton Curry",
+        "category": "Non-Vegetarian Delights",
+        "price": "340"
+    },
+    {
+        "id": "food058abc",
+        "item_id": "I058",
+        "name": "Fish Curry",
+        "category": "Non-Vegetarian Delights",
+        "price": "280"
+    },
+    {
+        "id": "food059abc",
+        "item_id": "I059",
+        "name": "Fish Fry",
+        "category": "Non-Vegetarian Delights",
+        "price": "260"
+    },
+    {
+        "id": "food060abc",
+        "item_id": "I060",
+        "name": "Egg Curry",
+        "category": "Non-Vegetarian Delights",
+        "price": "180"
+    },
+    {
+        "id": "food061abc",
+        "item_id": "I061",
+        "name": "Gulab Jamun",
+        "category": "Sweet Temptations",
+        "price": "90"
+    },
+    {
+        "id": "food062abc",
+        "item_id": "I062",
+        "name": "Rasmalai",
+        "category": "Sweet Temptations",
+        "price": "120"
+    },
+    {
+        "id": "food063abc",
+        "item_id": "I063",
+        "name": "Gajar Ka Halwa",
+        "category": "Sweet Temptations",
+        "price": "130"
+    },
+    {
+        "id": "food064abc",
+        "item_id": "I064",
+        "name": "Kheer",
+        "category": "Sweet Temptations",
+        "price": "100"
+    },
+    {
+        "id": "food065abc",
+        "item_id": "I065",
+        "name": "Kulfi",
+        "category": "Sweet Temptations",
+        "price": "100"
+    },
+    {
+        "id": "food066abc",
+        "item_id": "I066",
+        "name": "Brownie",
+        "category": "Sweet Temptations",
+        "price": "150"
+    },
+    {
+        "id": "food067abc",
+        "item_id": "I067",
+        "name": "Chocolate Cake",
+        "category": "Sweet Temptations",
+        "price": "160"
+    },
+    {
+        "id": "food068abc",
+        "item_id": "I068",
+        "name": "Ice Cream",
+        "category": "Sweet Temptations",
+        "price": "100"
+    },
+    {
+        "id": "food069abc",
+        "item_id": "I069",
+        "name": "Chocolate Sundae",
+        "category": "Sweet Temptations",
+        "price": "180"
+    },
+    {
+        "id": "food070abc",
+        "item_id": "I070",
+        "name": "Fruit Custard",
+        "category": "Sweet Temptations",
+        "price": "120"
+    },
+    {
+        "id": "food071abc",
+        "item_id": "I071",
+        "name": "Masala Chai",
+        "category": "Refreshments",
         "price": "50"
     },
     {
-        "id": "80eac2ff-2",
-        "item_id": "I016",
-        "name": "1",
-        "category": "veg",
+        "id": "food072abc",
+        "item_id": "I072",
+        "name": "Ginger Tea",
+        "category": "Refreshments",
+        "price": "60"
+    },
+    {
+        "id": "food073abc",
+        "item_id": "I073",
+        "name": "Cappuccino",
+        "category": "Refreshments",
+        "price": "120"
+    },
+    {
+        "id": "food074abc",
+        "item_id": "I074",
+        "name": "Cold Coffee",
+        "category": "Refreshments",
+        "price": "140"
+    },
+    {
+        "id": "food075abc",
+        "item_id": "I075",
+        "name": "Fresh Lime Soda",
+        "category": "Refreshments",
         "price": "100"
+    },
+    {
+        "id": "food076abc",
+        "item_id": "I076",
+        "name": "Mango Shake",
+        "category": "Refreshments",
+        "price": "150"
+    },
+    {
+        "id": "food077abc",
+        "item_id": "I077",
+        "name": "Strawberry Shake",
+        "category": "Refreshments",
+        "price": "160"
+    },
+    {
+        "id": "food078abc",
+        "item_id": "I078",
+        "name": "Sweet Lassi",
+        "category": "Refreshments",
+        "price": "100"
+    },
+    {
+        "id": "food079abc",
+        "item_id": "I079",
+        "name": "Fresh Orange Juice",
+        "category": "Refreshments",
+        "price": "130"
+    },
+    {
+        "id": "food080abc",
+        "item_id": "I080",
+        "name": "Mineral Water",
+        "category": "Refreshments",
+        "price": "30"
+    },
+    {
+        "id": "food081abc",
+        "item_id": "I081",
+        "name": "Veg Meal Combo",
+        "category": "Chef's Combos",
+        "price": "299"
+    },
+    {
+        "id": "food082abc",
+        "item_id": "I082",
+        "name": "Paneer Meal Combo",
+        "category": "Chef's Combos",
+        "price": "349"
+    },
+    {
+        "id": "food083abc",
+        "item_id": "I083",
+        "name": "Chicken Meal Combo",
+        "category": "Chef's Combos",
+        "price": "399"
+    },
+    {
+        "id": "food084abc",
+        "item_id": "I084",
+        "name": "Biryani Combo",
+        "category": "Chef's Combos",
+        "price": "349"
+    },
+    {
+        "id": "food085abc",
+        "item_id": "I085",
+        "name": "Tandoor Combo",
+        "category": "Chef's Combos",
+        "price": "399"
+    },
+    {
+        "id": "food086abc",
+        "item_id": "I086",
+        "name": "Chinese Combo",
+        "category": "Chef's Combos",
+        "price": "329"
+    },
+    {
+        "id": "food087abc",
+        "item_id": "I087",
+        "name": "Family Veg Combo",
+        "category": "Chef's Combos",
+        "price": "699"
+    },
+    {
+        "id": "food088abc",
+        "item_id": "I088",
+        "name": "Family Chicken Combo",
+        "category": "Chef's Combos",
+        "price": "799"
+    },
+    {
+        "id": "food089abc",
+        "item_id": "I089",
+        "name": "Couple Combo",
+        "category": "Chef's Combos",
+        "price": "599"
+    },
+    {
+        "id": "food090abc",
+        "item_id": "I090",
+        "name": "Kids Meal Combo",
+        "category": "Chef's Combos",
+        "price": "249"
+    },
+    {
+        "id": "food091abc",
+        "item_id": "I091",
+        "name": "Veg Spring Roll",
+        "category": "Starters & Soups",
+        "price": "160"
+    },
+    {
+        "id": "food092abc",
+        "item_id": "I092",
+        "name": "Crispy Corn",
+        "category": "Starters & Soups",
+        "price": "170"
+    },
+    {
+        "id": "food093abc",
+        "item_id": "I093",
+        "name": "Honey Chilli Potato",
+        "category": "Starters & Soups",
+        "price": "180"
+    },
+    {
+        "id": "food094abc",
+        "item_id": "I094",
+        "name": "Chicken Lollipop",
+        "category": "Starters & Soups",
+        "price": "260"
+    },
+    {
+        "id": "food095abc",
+        "item_id": "I095",
+        "name": "Chicken 65",
+        "category": "Starters & Soups",
+        "price": "240"
+    },
+    {
+        "id": "food096abc",
+        "item_id": "I096",
+        "name": "Hot & Sour Soup",
+        "category": "Starters & Soups",
+        "price": "130"
+    },
+    {
+        "id": "food097abc",
+        "item_id": "I097",
+        "name": "Manchow Soup",
+        "category": "Starters & Soups",
+        "price": "140"
+    },
+    {
+        "id": "food098abc",
+        "item_id": "I098",
+        "name": "Tomato Soup",
+        "category": "Starters & Soups",
+        "price": "110"
+    },
+    {
+        "id": "food099abc",
+        "item_id": "I099",
+        "name": "Sweet Corn Soup",
+        "category": "Starters & Soups",
+        "price": "120"
+    },
+    {
+        "id": "food100abc",
+        "item_id": "I100",
+        "name": "Cream of Mushroom Soup",
+        "category": "Starters & Soups",
+        "price": "150"
     }
 ]

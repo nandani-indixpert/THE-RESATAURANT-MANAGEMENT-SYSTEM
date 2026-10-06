@@ -1,0 +1,23 @@
+[
+    {
+        "feedback_id": "F001",
+        "order_id": "9a44755d-f",
+        "rating": 2,
+        "feedback": "godod"
+    },
+    {
+        "feedback_id": "F002",
+        "order_id": "0f0f015d-d",
+        "rating": 1,
+        "feedback": "1"
+    },
+    {
+        "feedback_id": "F003",
+        "order_id": "d2fe1a16-c",
+        "customer_name": "",
+        "rating": 3,
+        "feedback": "uuu",
+        "date": "2026-10-07",
+        "time": "01:12 AM"
+    }
+]

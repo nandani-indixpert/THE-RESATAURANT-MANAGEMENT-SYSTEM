@@ -22,14 +22,20 @@ def view_inventory():
         print("\nNo inventory found.")
         return
 
-    print("\n========== INVENTORY LIST ==========")
+    print("\n")
+    print("╔══════════════╦══════════════════╦══════════╦══════════╦══════════════╗")
+    print("║ INVENTORY ID ║ ITEM NAME        ║ QUANTITY ║ UNIT     ║ STATUS       ║")
+    print("╠══════════════╬══════════════════╬══════════╬══════════╬══════════════╣")
 
     for item in inventory_list:
-        print(f"Inventory ID : {item['inventory_id']}")
-        print(f"Item Name    : {item['item_name']}")
-        print(f"Quantity     : {item['quantity']}")
-        print(f"Unit         : {item['unit']}")
-        print(f"Status       : {item['status']}")
-        print("-" * 40)
+        print(
+            f"║ {item['inventory_id']:<12} "
+            f"║ {item['item_name']:<16} "
+            f"║ {item['quantity']:<8} "
+            f"║ {item['unit']:<8} "
+            f"║ {item['status']:<12} ║"
+        )
+
+    print("╚══════════════╩══════════════════╩══════════╩══════════╩══════════════╝")
 
     log_info("Inventory list viewed.")
