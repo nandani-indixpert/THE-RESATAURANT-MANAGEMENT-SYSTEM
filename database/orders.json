@@ -107,5 +107,45 @@
         "time": "01:33 AM",
         "payment_method": "UPI",
         "payment_status": "Paid"
+    },
+    {
+        "order_id": "a9a205f9-b",
+        "order_type": "Takeaway",
+        "table_id": null,
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": 150.0,
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
+        "status": "Pending",
+        "customer_name": "raunak",
+        "discount": 0,
+        "gst": 7.5,
+        "final_amount": 157.5,
+        "date": "2026-10-07",
+        "time": "03:24 AM",
+        "payment_method": "UPI",
+        "payment_status": "Paid"
+    },
+    {
+        "order_id": "7b404f12-4",
+        "order_type": "Dine-In",
+        "table_id": "T1",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": 150.0,
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
+        "status": "Pending"
     }
 ]

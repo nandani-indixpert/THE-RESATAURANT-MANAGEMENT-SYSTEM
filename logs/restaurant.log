@@ -181,3 +181,8 @@
 2026-10-07 01:47:33,256 - INFO - Staff viewed table status.
 2026-10-07 01:47:37,275 - INFO - Staff viewed table status.
 2026-10-07 02:31:33,971 - INFO - Staff logged in: nikki
+2026-10-07 03:22:50,129 - WARNING - Invalid staff login attempt.
+2026-10-07 03:22:59,589 - WARNING - Invalid staff login attempt.
+2026-10-07 03:23:11,557 - INFO - Staff logged in: nikki
+2026-10-07 03:24:22,364 - INFO - Payment completed for Order ID: a9a205f9-b
+2026-10-07 03:25:02,389 - INFO - Staff viewed table status.

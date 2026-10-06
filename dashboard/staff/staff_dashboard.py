@@ -1,5 +1,5 @@
 from dashboard.staff.view_table_status.view_table_status import view_table_status
-from dashboard.staff.create_order.create_order import staff_create_order
+from dashboard.staff.create_order.create_order import create_order
 from dashboard.staff.active_orders.active_orders import active_orders
 from dashboard.staff.billing_payment.billing_payment import billing_payment
 from dashboard.staff.reservations.reservations import reservations
@@ -21,7 +21,7 @@ def staff_dashboard():
             view_table_status()
 
         elif choice == "2":
-            staff_create_order()
+            create_order()
 
         elif choice == "3":
             active_orders()

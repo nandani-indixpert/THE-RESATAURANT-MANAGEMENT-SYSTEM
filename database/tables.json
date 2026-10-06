@@ -3,7 +3,7 @@
         "table_id": "T1",
         "table_type": "Small",
         "seats": 2,
-        "status": "Available"
+        "status": "Occupied"
     },
     {
         "table_id": "T2",
