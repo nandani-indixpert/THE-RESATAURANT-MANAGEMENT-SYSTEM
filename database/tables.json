@@ -1,0 +1,50 @@
+[
+    {
+        "table_id": "T1",
+        "table_type": "Small",
+        "seats": 2,
+        "status": "Occupied"
+    },
+    {
+        "table_id": "T2",
+        "table_type": "Small",
+        "seats": 2,
+        "status": "Available"
+    },
+    {
+        "table_id": "T3",
+        "table_type": "Medium",
+        "seats": 4,
+        "status": "Available"
+    },
+    {
+        "table_id": "T4",
+        "table_type": "Medium",
+        "seats": 4,
+        "status": "Available"
+    },
+    {
+        "table_id": "T5",
+        "table_type": "Large",
+        "seats": 6,
+        "status": "Available"
+    },
+    {
+        "table_id": "T6",
+        "table_type": "Large",
+        "seats": 6,
+        "status": "Occupied"
+    },
+    {
+        "table_id": "T7",
+        "table_type": "VIP",
+        "seats": 8,
+        "status": "Available"
+    },
+    {
+        "table_id": "T8",
+        "table_type": "VIP",
+        "seats": 8,
+        "status": "Reserved"
+    }
+]

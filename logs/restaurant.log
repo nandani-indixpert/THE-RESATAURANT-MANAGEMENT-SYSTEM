@@ -1,0 +1,188 @@
+2026-10-05 13:22:41,005 - INFO - Admin logged in: nandani kumari
+2026-10-05 13:27:35,386 - INFO - Admin logged in: nandani kumari
+2026-10-05 13:27:52,285 - INFO - Food added : I015 - icecream
+2026-10-05 13:27:56,135 - INFO - Food menu viewed.
+2026-10-05 13:28:51,754 - INFO - Food updated : I8
+2026-10-05 13:29:14,927 - INFO - Food updated : I4
+2026-10-05 13:29:34,827 - INFO - Food updated : I4
+2026-10-05 13:29:48,317 - WARNING - Invalid staff login attempt.
+2026-10-05 13:30:01,637 - INFO - Staff logged in: neha
+2026-10-05 13:30:08,326 - INFO - Staff viewed table status.
+2026-10-05 13:30:29,425 - INFO - Order created: 2acc0b2b-0
+2026-10-05 13:31:10,985 - INFO - Payment completed for Order ID: 2acc0b2b-0
+2026-10-05 13:31:25,493 - INFO - Order list viewed
+2026-10-05 13:31:25,493 - INFO - Staff viewed active orders.
+2026-10-05 13:31:32,525 - INFO - Staff modified an order.
+2026-10-05 14:13:09,569 - WARNING - Staff sign-in attempted but no staff found.
+2026-10-05 14:13:13,207 - WARNING - Staff sign-in attempted but no staff found.
+2026-10-05 14:13:24,734 - INFO - Admin logged in: nandani kumari
+2026-10-05 14:13:50,762 - INFO - Staff added: S001
+2026-10-05 14:13:53,567 - INFO - Staff list viewed.
+2026-10-05 14:18:17,766 - INFO - Staff removed: S001
+2026-10-05 14:31:55,833 - INFO - Admin account created: nikki
+2026-10-05 14:33:11,599 - INFO - Admin logged in: nikki
+2026-10-05 14:34:35,569 - INFO - Admin logged in: nikki
+2026-10-05 14:34:48,890 - WARNING - Staff sign-in attempted but no staff found.
+2026-10-05 14:36:19,168 - INFO - Admin logged in: nikki
+2026-10-05 14:47:30,342 - INFO - Admin logged in: nikki
+2026-10-05 14:47:49,041 - INFO - Food menu viewed.
+2026-10-05 14:48:36,398 - INFO - Food added : I016 - icecream
+2026-10-05 14:48:45,693 - INFO - Food menu viewed.
+2026-10-05 14:49:20,329 - INFO - Food deleted : I016
+2026-10-05 14:49:27,306 - INFO - Food menu viewed.
+2026-10-05 14:50:21,261 - INFO - Staff added: S001
+2026-10-05 14:50:29,615 - INFO - Staff list viewed.
+2026-10-05 14:50:53,075 - INFO - Staff logged in: ritu
+2026-10-05 14:51:01,952 - INFO - Staff viewed table status.
+2026-10-05 14:52:23,314 - INFO - Order created: 284eb047-0
+2026-10-05 14:53:57,264 - INFO - Order created: 75fbcf6d-5
+2026-10-05 14:54:33,518 - WARNING - Invalid billing attempt for Order ID: [Window Title]
+2026-10-05 14:55:27,949 - INFO - Order updated: 75fbcf6d-5
+2026-10-05 14:55:27,949 - INFO - Staff modified an order.
+2026-10-05 15:06:42,747 - WARNING - Invalid billing attempt for Order ID: python -u "d:\The restaurant management system\THE-RESATAURANT-MANAGEMENT-SYSTEM\dashboard\admin\admin_dashboard.py"
+2026-10-06 14:01:36,508 - INFO - Staff logged in: ritu
+2026-10-06 14:01:46,029 - INFO - Order created: ae499cd8-5
+2026-10-06 14:01:47,898 - INFO - Staff viewed table status.
+2026-10-06 14:01:51,596 - INFO - Order list viewed
+2026-10-06 14:01:51,596 - INFO - Staff viewed active orders.
+2026-10-06 14:02:12,660 - INFO - Staff modified an order.
+2026-10-06 14:02:39,695 - INFO - Order created: f77e255b-1
+2026-10-06 14:02:51,170 - INFO - Admin logged in: nikki
+2026-10-06 14:03:11,121 - INFO - Food menu viewed.
+2026-10-06 14:03:29,467 - INFO - Food added : I016 - 1
+2026-10-06 14:03:43,946 - INFO - Food deleted : I015
+2026-10-06 14:03:48,247 - INFO - Food menu viewed.
+2026-10-06 14:15:23,549 - INFO - Staff logged in: ritu
+2026-10-06 14:15:28,772 - INFO - Staff viewed table status.
+2026-10-06 14:15:58,088 - INFO - Order created: c83bb033-7
+2026-10-06 14:16:04,567 - INFO - Order list viewed
+2026-10-06 14:16:04,567 - INFO - Staff viewed active orders.
+2026-10-06 14:16:42,589 - INFO - Order updated: c83bb033-7
+2026-10-06 14:16:42,589 - INFO - Staff modified an order.
+2026-10-06 14:17:07,221 - INFO - Order updated: c83bb033-7
+2026-10-06 14:17:07,221 - INFO - Staff modified an order.
+2026-10-06 14:17:37,840 - INFO - Payment completed for Order ID: c83bb033-7
+2026-10-06 14:18:26,076 - INFO - Admin logged in: nikki
+2026-10-06 14:18:46,633 - INFO - Order created: 3bbe4483-a
+2026-10-06 14:18:47,679 - INFO - Order list viewed
+2026-10-06 14:21:27,800 - WARNING - Invalid admin name.
+2026-10-06 14:22:13,526 - INFO - Admin account created: nandani
+2026-10-06 14:22:26,521 - WARNING - Invalid admin login attempt.
+2026-10-06 14:22:47,638 - INFO - Admin logged in: nandani
+2026-10-06 14:22:55,608 - INFO - Inventory list viewed.
+2026-10-06 14:29:09,129 - INFO - Staff logged in: ritu
+2026-10-06 14:29:59,153 - WARNING - Invalid admin login attempt.
+2026-10-06 14:30:15,084 - INFO - Admin logged in: nandani
+2026-10-06 14:36:48,735 - INFO - Order created: a12291d0-1
+2026-10-06 14:36:55,360 - INFO - Food menu viewed.
+2026-10-06 14:37:24,097 - INFO - Staff logged in: ritu
+2026-10-06 14:38:32,136 - INFO - Staff logged in: ritu
+2026-10-06 19:29:13,353 - INFO - Admin account created: nandani
+2026-10-06 19:29:30,135 - INFO - Admin logged in: nandani
+2026-10-06 19:30:23,548 - INFO - Food added : I001 - pizza
+2026-10-06 19:30:29,257 - INFO - Food menu viewed.
+2026-10-06 19:30:53,256 - WARNING - Invalid food updated attempt : I002
+2026-10-06 19:31:06,865 - INFO - Food updated : I001
+2026-10-06 19:31:08,893 - INFO - Food menu viewed.
+2026-10-06 19:31:17,286 - WARNING - Invalid food delete attempt : I0
+2026-10-06 19:31:21,079 - INFO - Food deleted : I001
+2026-10-06 19:31:37,413 - INFO - Table added : T1
+2026-10-06 19:31:42,362 - INFO - Table list viewed.
+2026-10-06 19:32:07,318 - INFO - Table updated: T1
+2026-10-06 19:32:09,361 - INFO - Table list viewed.
+2026-10-06 19:32:24,209 - INFO - Table added : T2
+2026-10-06 19:32:29,223 - INFO - Table list viewed.
+2026-10-06 19:32:39,599 - INFO - Table updated: T2
+2026-10-06 19:32:40,629 - INFO - Table list viewed.
+2026-10-06 19:32:46,117 - INFO - Table deleted: T1
+2026-10-06 19:32:50,644 - INFO - Table deleted: T2
+2026-10-06 23:43:30,672 - INFO - Admin logged in: nandani
+2026-10-06 23:43:34,181 - INFO - Food menu viewed.
+2026-10-06 23:44:17,076 - INFO - Food added : I101 - roti
+2026-10-06 23:44:23,928 - INFO - Food menu viewed.
+2026-10-06 23:45:03,134 - INFO - Food added : I102 - chini
+2026-10-06 23:45:06,461 - INFO - Food menu viewed.
+2026-10-06 23:46:32,541 - INFO - Food added : I103 - pua
+2026-10-06 23:46:33,706 - INFO - Food menu viewed.
+2026-10-06 23:49:43,964 - INFO - Admin logged in: nandani
+2026-10-06 23:49:46,453 - INFO - Food menu viewed.
+2026-10-06 23:50:04,811 - INFO - Food added : I104 - chawal
+2026-10-06 23:50:06,154 - INFO - Food menu viewed.
+2026-10-07 00:01:45,003 - INFO - Admin logged in: nandani
+2026-10-07 00:01:47,757 - INFO - Food menu viewed.
+2026-10-07 00:02:06,402 - INFO - Food deleted : I101
+2026-10-07 00:02:51,316 - INFO - Food added : I104 - paneer butter masala
+2026-10-07 00:02:53,365 - INFO - Food menu viewed.
+2026-10-07 00:03:07,799 - WARNING - Invalid food updated attempt : I
+2026-10-07 00:12:49,121 - WARNING - Invalid food delete attempt : I1PYTHON -U "D:\THE RESTAURANT MANAGEMENT SYSTEM\THE-RESATAURANT-MANAGEMENT-SYSTEM\MAIN.PY"
+2026-10-07 00:13:34,704 - INFO - Admin logged in: nandani
+2026-10-07 00:13:38,186 - INFO - Food menu viewed.
+2026-10-07 00:13:50,235 - INFO - Food deleted : I102
+2026-10-07 00:13:54,731 - INFO - Food deleted : I103
+2026-10-07 00:13:59,734 - INFO - Food deleted : I104
+2026-10-07 00:14:05,466 - INFO - Food deleted : I104
+2026-10-07 00:14:25,135 - INFO - Food added : I101 - chawal
+2026-10-07 00:14:27,338 - INFO - Food menu viewed.
+2026-10-07 00:14:37,176 - INFO - Food added : I102 - dal
+2026-10-07 00:14:38,763 - INFO - Food menu viewed.
+2026-10-07 00:15:01,045 - INFO - Food deleted : I101
+2026-10-07 00:15:04,935 - INFO - Food deleted : I102
+2026-10-07 00:15:11,973 - WARNING - Invalid food delete attempt : W
+2026-10-07 00:15:37,282 - INFO - Food added : I101 - potato
+2026-10-07 00:15:47,972 - INFO - Food added : I102 - potato
+2026-10-07 00:15:53,311 - INFO - Food menu viewed.
+2026-10-07 00:16:28,593 - INFO - Food added : I103 - potato
+2026-10-07 00:28:02,165 - WARNING - Invalid admin login attempt.
+2026-10-07 00:28:15,790 - INFO - Admin logged in: nandani
+2026-10-07 00:28:31,352 - INFO - Food added : I104 - tomato
+2026-10-07 00:28:37,934 - WARNING - Duplicate food attempt: tomato
+2026-10-07 00:28:42,962 - INFO - Food menu viewed.
+2026-10-07 00:29:05,299 - INFO - Food deleted : I102
+2026-10-07 00:29:19,772 - WARNING - Invalid food delete attempt : I102
+2026-10-07 00:29:25,746 - INFO - Food deleted : I101
+2026-10-07 00:29:29,487 - INFO - Food deleted : I103
+2026-10-07 00:29:37,846 - INFO - Food deleted : I104
+2026-10-07 00:29:43,591 - WARNING - Invalid food delete attempt : 4
+2026-10-07 00:46:48,882 - WARNING - Staff sign-in attempted but no staff found.
+2026-10-07 00:46:57,811 - WARNING - Staff sign-in attempted but no staff found.
+2026-10-07 00:47:08,778 - WARNING - Staff sign-in attempted but no staff found.
+2026-10-07 00:47:23,360 - INFO - Admin logged in: nandani
+2026-10-07 00:47:50,091 - INFO - Staff added: S001
+2026-10-07 00:48:03,729 - INFO - Staff logged in: nikki
+2026-10-07 00:48:21,435 - INFO - Order created: 9a44755d-f
+2026-10-07 00:48:57,129 - INFO - Payment completed for Order ID: 9a44755d-f
+2026-10-07 00:50:39,685 - INFO - Order created: 0f0f015d-d
+2026-10-07 00:50:59,926 - INFO - Payment completed for Order ID: 0f0f015d-d
+2026-10-07 00:52:20,374 - INFO - Order created: d2fe1a16-c
+2026-10-07 00:52:37,568 - INFO - Payment completed for Order ID: d2fe1a16-c
+2026-10-07 00:53:30,346 - INFO - Payment completed for Order ID: d2fe1a16-c
+2026-10-07 01:10:25,490 - WARNING - Invalid admin login attempt.
+2026-10-07 01:10:36,674 - INFO - Staff logged in: nikki
+2026-10-07 01:11:23,830 - INFO - Payment completed for Order ID: d2fe1a16-c
+2026-10-07 01:11:57,666 - INFO - Payment completed for Order ID: d2fe1a16-c
+2026-10-07 01:16:10,075 - INFO - Staff logged in: nikki
+2026-10-07 01:16:23,332 - INFO - Payment completed for Order ID: d2fe1a16-c
+2026-10-07 01:16:47,613 - INFO - Order created: b2c167f6-6
+2026-10-07 01:16:59,347 - INFO - Payment completed for Order ID: b2c167f6-6
+2026-10-07 01:31:10,761 - INFO - Staff logged in: nikki
+2026-10-07 01:31:28,523 - INFO - Paid order viewed: b2c167f6-6
+2026-10-07 01:32:26,679 - INFO - Paid order viewed: 0f0f015d-d
+2026-10-07 01:32:45,304 - INFO - Paid order viewed: 9a44755d-f
+2026-10-07 01:32:55,242 - INFO - Paid order viewed: d2fe1a16-c
+2026-10-07 01:33:16,766 - INFO - Order created: 2836eebc-6
+2026-10-07 01:33:40,123 - INFO - Payment completed for Order ID: 2836eebc-6
+2026-10-07 01:34:17,935 - INFO - Paid order viewed: 2836eebc-6
+2026-10-07 01:35:56,491 - WARNING - Invalid billing attempt for Order ID: 2
+2026-10-07 01:36:02,015 - INFO - Order list viewed
+2026-10-07 01:36:02,015 - INFO - Staff viewed active orders.
+2026-10-07 01:36:15,881 - INFO - Order updated: 2836eebc-6
+2026-10-07 01:36:15,881 - INFO - Staff modified an order.
+2026-10-07 01:47:29,334 - WARNING - Invalid billing attempt for Order ID: python -u "d:\The restaurant management system\THE-RESATAURANT-MANAGEMENT-SYSTEM\dashboard\staff\staff_dashboard.py"
+2026-10-07 01:47:33,256 - INFO - Staff viewed table status.
+2026-10-07 01:47:37,275 - INFO - Staff viewed table status.
+2026-10-07 02:31:33,971 - INFO - Staff logged in: nikki
+2026-10-07 03:22:50,129 - WARNING - Invalid staff login attempt.
+2026-10-07 03:22:59,589 - WARNING - Invalid staff login attempt.
+2026-10-07 03:23:11,557 - INFO - Staff logged in: nikki
+2026-10-07 03:24:22,364 - INFO - Payment completed for Order ID: a9a205f9-b
+2026-10-07 03:25:02,389 - INFO - Staff viewed table status.

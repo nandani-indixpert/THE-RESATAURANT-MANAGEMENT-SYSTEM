@@ -1,0 +1,151 @@
+[
+    {
+        "order_id": "9a44755d-f",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": "150",
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
+        "status": "Pending",
+        "date": "2026-10-07",
+        "coupon": "",
+        "discount": 0,
+        "gst": 7.5,
+        "final_amount": 157.5,
+        "payment_method": "Row",
+        "payment_status": "Paid"
+    },
+    {
+        "order_id": "0f0f015d-d",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 50,
+                "price": "150",
+                "total": 7500.0
+            }
+        ],
+        "total": 7500.0,
+        "status": "Pending",
+        "date": "2026-10-07",
+        "coupon": "",
+        "discount": 0,
+        "gst": 375.0,
+        "final_amount": 7875.0,
+        "payment_method": "Cash",
+        "payment_status": "Paid"
+    },
+    {
+        "order_id": "d2fe1a16-c",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": "150",
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
+        "status": "Pending",
+        "date": "2026-10-07",
+        "coupon": "",
+        "discount": 0,
+        "gst": 7.5,
+        "final_amount": 157.5,
+        "payment_method": "Card",
+        "payment_status": "Paid",
+        "customer_name": "",
+        "time": "01:16 AM"
+    },
+    {
+        "order_id": "b2c167f6-6",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 50,
+                "price": "150",
+                "total": 7500.0
+            }
+        ],
+        "total": 7500.0,
+        "status": "Pending",
+        "date": "2026-10-07",
+        "customer_name": "riya",
+        "discount": 1125.0,
+        "gst": 318.75,
+        "final_amount": 6693.75,
+        "payment_method": "UPI",
+        "payment_status": "Paid",
+        "time": "01:16 AM"
+    },
+    {
+        "order_id": "2836eebc-6",
+        "items": [
+            {
+                "item_id": "I099",
+                "food_name": "Sweet Corn Soup",
+                "quantity": 20,
+                "price": "120",
+                "total": 2400.0
+            }
+        ],
+        "total": 2400.0,
+        "status": "complete",
+        "date": "2026-10-07",
+        "customer_name": "raj",
+        "discount": 240.0,
+        "gst": 108.0,
+        "final_amount": 2268.0,
+        "time": "01:33 AM",
+        "payment_method": "UPI",
+        "payment_status": "Paid"
+    },
+    {
+        "order_id": "a9a205f9-b",
+        "order_type": "Takeaway",
+        "table_id": null,
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": 150.0,
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
+        "status": "Pending",
+        "customer_name": "raunak",
+        "discount": 0,
+        "gst": 7.5,
+        "final_amount": 157.5,
+        "date": "2026-10-07",
+        "time": "03:24 AM",
+        "payment_method": "UPI",
+        "payment_status": "Paid"
+    },
+    {
+        "order_id": "7b404f12-4",
+        "order_type": "Dine-In",
+        "table_id": "T1",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": 150.0,
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
+        "status": "Pending"
+    }
+]

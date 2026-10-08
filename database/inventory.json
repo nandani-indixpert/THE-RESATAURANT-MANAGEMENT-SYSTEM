@@ -1,0 +1,58 @@
+[
+    {
+        "inventory_id": "INV001",
+        "item_name": "Rice",
+        "quantity": 25,
+        "unit": "kg",
+        "status": "Available"
+    },
+    {
+        "inventory_id": "INV002",
+        "item_name": "Wheat Flour",
+        "quantity": 20,
+        "unit": "kg",
+        "status": "Available"
+    },
+    {
+        "inventory_id": "INV003",
+        "item_name": "Cooking Oil",
+        "quantity": 15,
+        "unit": "litre",
+        "status": "Available"
+    },
+    {
+        "inventory_id": "INV004",
+        "item_name": "Paneer",
+        "quantity": 10,
+        "unit": "kg",
+        "status": "Available"
+    },
+    {
+        "inventory_id": "INV005",
+        "item_name": "Tomato",
+        "quantity": 12,
+        "unit": "kg",
+        "status": "Available"
+    },
+    {
+        "inventory_id": "INV006",
+        "item_name": "Potato",
+        "quantity": 20,
+        "unit": "kg",
+        "status": "Available"
+    },
+    {
+        "inventory_id": "INV007",
+        "item_name": "Cheese",
+        "quantity": 8,
+        "unit": "kg",
+        "status": "Available"
+    },
+    {
+        "inventory_id": "INV008",
+        "item_name": "Soft Drinks",
+        "quantity": 50,
+        "unit": "pcs",
+        "status": "Available"
+    }
+]

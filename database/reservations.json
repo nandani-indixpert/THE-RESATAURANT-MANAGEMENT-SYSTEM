@@ -1,0 +1,12 @@
+[
+    {
+        "reservation_id": "R5158010a",
+        "customer_name": "nayara",
+        "phone": "9899776546",
+        "table_id": "t1",
+        "date": "09-09-2025",
+        "time": "2:00 am",
+        "people": "6",
+        "status": "Pending"
+    }
+]
