@@ -186,3 +186,47 @@
 2026-10-07 03:23:11,557 - INFO - Staff logged in: nikki
 2026-10-07 03:24:22,364 - INFO - Payment completed for Order ID: a9a205f9-b
 2026-10-07 03:25:02,389 - INFO - Staff viewed table status.
+2026-10-07 13:06:49,806 - INFO - Admin logged in: nandani
+2026-10-07 13:07:58,127 - INFO - Food added : I101 - samosa
+2026-10-07 13:08:01,100 - INFO - Food menu viewed.
+2026-10-07 13:08:10,058 - INFO - Food deleted : I101
+2026-10-07 13:08:15,331 - WARNING - Invalid food updated attempt : I
+2026-10-07 13:08:28,432 - INFO - Table added : T9
+2026-10-07 13:08:37,527 - WARNING - Invalid table update attempt: 3
+2026-10-07 13:09:00,831 - INFO - Order created: 121730fe-7
+2026-10-07 13:10:03,354 - INFO - Inventory updated: INV001
+2026-10-07 13:10:05,455 - INFO - Inventory list viewed.
+2026-10-07 13:10:35,723 - INFO - Inventory updated: INV001
+2026-10-07 13:10:39,517 - INFO - Inventory list viewed.
+2026-10-07 14:26:09,192 - INFO - Admin logged in: nandani
+2026-10-07 14:26:13,628 - INFO - Order list viewed
+2026-10-07 14:26:24,484 - INFO - Order list viewed
+2026-10-07 14:39:08,379 - INFO - Admin logged in: nandani
+2026-10-07 14:41:45,289 - INFO - Order created: 025d5ed3-4
+2026-10-07 14:41:48,630 - INFO - Order list viewed
+2026-10-07 14:42:41,248 - INFO - Order deleted: 025d5ed3-4
+2026-10-07 14:42:53,064 - INFO - Order deleted: 121730fe-7
+2026-10-07 14:42:58,765 - INFO - Order list viewed
+2026-10-07 14:43:05,439 - INFO - Order list viewed
+2026-10-07 14:44:22,010 - INFO - Inventory added: INV9
+2026-10-07 14:44:27,189 - INFO - Inventory list viewed.
+2026-10-07 14:45:28,474 - INFO - Table list viewed.
+2026-10-07 14:47:20,509 - WARNING - Invalid staff login attempt.
+2026-10-07 14:47:55,180 - INFO - Staff logged in: nikki
+2026-10-07 14:48:05,857 - INFO - Staff viewed table status.
+2026-10-07 14:56:26,964 - INFO - Staff logged in: nikki
+2026-10-07 14:56:42,803 - INFO - Payment completed for Order ID: 7b404f12-4
+2026-10-07 14:58:22,812 - INFO - Admin logged in: nandani
+2026-10-07 14:58:39,089 - INFO - Order created: 9e9f8e4b-1
+2026-10-07 14:58:54,534 - INFO - Staff logged in: nikki
+2026-10-07 15:00:03,612 - INFO - Payment completed for Order ID: 9e9f8e4b-1
+2026-10-07 15:03:52,546 - INFO - Admin account created: nandani kumari
+2026-10-07 15:04:41,020 - WARNING - Staff sign-in attempted but no staff found.
+2026-10-07 15:05:01,441 - INFO - Admin logged in: nandani kumari
+2026-10-07 15:05:22,838 - INFO - Staff added: S001
+2026-10-07 15:05:40,997 - INFO - Staff logged in: saniya
+2026-10-07 15:05:53,898 - INFO - Admin logged in: nandani kumari
+2026-10-07 15:05:57,982 - INFO - Staff list viewed.
+2026-10-08 13:13:59,021 - WARNING - Invalid admin login attempt.
+2026-10-08 13:15:37,140 - INFO - Admin logged in: nandani kumari
+2026-10-08 13:15:51,180 - INFO - Food menu viewed.
