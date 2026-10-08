@@ -146,6 +146,75 @@
             }
         ],
         "total": 150.0,
+        "status": "Pending",
+        "customer_name": "",
+        "discount": 0,
+        "gst": 7.5,
+        "final_amount": 157.5,
+        "date": "2026-10-07",
+        "time": "02:56 PM",
+        "payment_method": "UPI",
+        "payment_status": "Paid"
+    },
+    {
+        "order_id": "9e9f8e4b-1",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": "150",
+                "total": 150.0
+            },
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": "150",
+                "total": 150.0
+            }
+        ],
+        "total": 300.0,
+        "status": "Pending",
+        "date": "2026-10-07",
+        "customer_name": "",
+        "discount": 0,
+        "gst": 15.0,
+        "final_amount": 315.0,
+        "time": "02:59 PM",
+        "payment_method": "UPI",
+        "payment_status": "Paid"
+    },
+    {
+        "order_id": "27116b62-c",
+        "order_type": "Dine-In",
+        "table_id": "T2",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": 150.0,
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
+        "status": "Pending"
+    },
+    {
+        "order_id": "173a513e-4",
+        "order_type": "Dine-In",
+        "table_id": "T3",
+        "items": [
+            {
+                "item_id": "I100",
+                "food_name": "Cream of Mushroom Soup",
+                "quantity": 1,
+                "price": 150.0,
+                "total": 150.0
+            }
+        ],
+        "total": 150.0,
         "status": "Pending"
     }
 ]
