@@ -1,10 +1,10 @@
 [
     {
         "inventory_id": "INV001",
-        "item_name": "rice",
-        "quantity": "30",
+        "item_name": "Rice",
+        "quantity": 25,
         "unit": "kg",
-        "status": "available"
+        "status": "Available"
     },
     {
         "inventory_id": "INV002",
@@ -53,14 +53,6 @@
         "item_name": "Soft Drinks",
         "quantity": 50,
         "unit": "pcs",
-        "status": "Available"
-    },
-    {
-        "id": "c6938b6d-3",
-        "inventory_id": "INV9",
-        "item_name": "milk",
-        "quantity": "10",
-        "unit": "litre",
         "status": "Available"
     }
 ]

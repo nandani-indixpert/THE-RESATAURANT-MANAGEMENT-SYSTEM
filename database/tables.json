@@ -9,13 +9,13 @@
         "table_id": "T2",
         "table_type": "Small",
         "seats": 2,
-        "status": "Occupied"
+        "status": "Available"
     },
     {
         "table_id": "T3",
         "table_type": "Medium",
         "seats": 4,
-        "status": "Occupied"
+        "status": "Available"
     },
     {
         "table_id": "T4",
@@ -46,12 +46,5 @@
         "table_type": "VIP",
         "seats": 8,
         "status": "Reserved"
-    },
-    {
-        "id": "4d3243ff-b",
-        "table_id": "T9",
-        "table_type": "small",
-        "seats": "2",
-        "status": "Available"
     }
 ]
